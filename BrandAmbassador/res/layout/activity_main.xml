@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:text="Calendar" />
+        android:text="@string/Calendar" />
 
     <Button
         android:id="@+id/button3"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/button2"
         android:layout_toRightOf="@+id/button2"
-        android:text="$" />
+        android:text="@string/$" />
 
     <Button
         android:id="@+id/button2"
@@ -34,7 +34,7 @@
         android:layout_alignBaseline="@+id/button1"
         android:layout_alignBottom="@+id/button1"
         android:layout_toRightOf="@+id/button1"
-        android:text="Reports" />
+        android:text="@string/Reports" />
 
     <Button
         android:id="@+id/button4"
@@ -44,7 +44,7 @@
         android:layout_alignBaseline="@+id/button3"
         android:layout_alignBottom="@+id/button3"
         android:layout_toRightOf="@+id/button3"
-        android:text="Docs" />
+        android:text="@string/Docs" />
 
     <CalendarView
         android:id="@+id/calendarView1"
