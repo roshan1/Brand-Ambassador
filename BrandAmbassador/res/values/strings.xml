@@ -4,8 +4,12 @@
     <string name="app_name">Brand Ambassador</string>
     <string name="action_settings">Settings</string>
     <string name="calendar_button">Calendar</string>
-    <string name="documents_button">Docs</string>
-    <string name="money_button">$</string>
+    <string name="documents_button">Documents</string>
+    <string name="money_button">Finances</string>
     <string name="reports_button">Reports</string>
+    <string name="selectedDate"></string>
+    <string name="addEvent">Add Event</string>
+    <string name="title_activity_add_event">Add Event</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

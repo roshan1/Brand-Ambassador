@@ -9,7 +9,7 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/calendarButton"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,41 +18,59 @@
         android:text="@string/calendar_button" />
 
     <CalendarView
-        android:id="@+id/calendarView1"
+        android:id="@+id/myCalendar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/button1"
+        android:layout_above="@+id/calendarButton"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true" />
+        android:layout_alignRight="@+id/documentButton"
+        android:showWeekNumber="false" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/documentButton"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/calendarView1"
+        android:layout_below="@+id/myCalendar"
         android:text="@string/documents_button" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/financeButton"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button4"
-        android:layout_alignBottom="@+id/button4"
-        android:layout_toLeftOf="@+id/button4"
-        android:layout_toRightOf="@+id/button2"
+        android:layout_alignBaseline="@+id/documentButton"
+        android:layout_alignBottom="@+id/documentButton"
+        android:layout_toLeftOf="@+id/documentButton"
+        android:layout_toRightOf="@+id/reportButton"
         android:text="@string/money_button" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/reportButton"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button1"
-        android:layout_alignBottom="@+id/button1"
-        android:layout_toRightOf="@+id/button1"
+        android:layout_alignBaseline="@+id/calendarButton"
+        android:layout_alignBottom="@+id/calendarButton"
+        android:layout_toRightOf="@+id/calendarButton"
         android:text="@string/reports_button" />
+
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/myCalendar"
+        android:layout_alignLeft="@+id/myCalendar"
+        android:text="@string/selectedDate" />
+
+    <Button
+        android:id="@+id/addEventButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/myCalendar"
+        android:layout_alignTop="@+id/myCalendar"
+        android:onClick="addEvent"
+        android:text="@string/addEvent" />
 
 </RelativeLayout>
