@@ -25,13 +25,13 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f080007;
-        public static final int addEventButton=0x7f080006;
-        public static final int calendarButton=0x7f080000;
-        public static final int documentButton=0x7f080002;
-        public static final int financeButton=0x7f080003;
-        public static final int myCalendar=0x7f080001;
-        public static final int reportButton=0x7f080004;
-        public static final int selectedDate=0x7f080005;
+        public static final int addEventButton=0x7f080002;
+        public static final int calendarButton=0x7f080001;
+        public static final int documentButton=0x7f080006;
+        public static final int financeButton=0x7f080004;
+        public static final int myCalendar=0x7f080000;
+        public static final int reportButton=0x7f080005;
+        public static final int selectedDate=0x7f080003;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
