@@ -18,16 +18,16 @@ public class AddEventActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.add_event);
 		
-		setupActionBar();
+	    setupActionBar();
 		
 		//Get the message from the intent that was in MainActivity
-		Intent intent = getIntent();
-		String Date = intent.getStringExtra(MainActivity.SELECTED_DATE);
+		//Intent intent = getIntent();
+		//String Date = intent.getStringExtra(MainActivity.SELECTED_DATE);
 		
-		TextView displayDate = new TextView (this);
-		displayDate.setText(Date);
-		
-		setContentView(displayDate);
+		//TextView displayDate = new TextView (this);
+		//displayDate.setText(Date);
+		//
+		//setContentView(displayDate);
 			
 	}
 

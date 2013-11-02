@@ -11,8 +11,8 @@
     	<TextView
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
-        	android:text="@string/Title" />
-    	<EditText android:id="@+id/edit_message"
+        	android:text="@string/title" />
+    	<EditText android:id="@+id/title_message"
         	android:layout_width="match_parent"
         	android:layout_height="wrap_content"
         	android:hint="@string/title_message" />
@@ -21,7 +21,7 @@
    		<TextView
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
-        	android:text="@string/Location" />
+        	android:text="@string/location" />
     	<EditText android:id="@+id/location_message"
         	android:layout_width="match_parent"
         	android:layout_height="wrap_content"
@@ -31,23 +31,104 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/From" />
+        android:text="@string/start" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/To" />
+        android:text="@string/end" />
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timeZone" />
     <LinearLayout >
    		 <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/pay_rate" />
-    
-    <EditText 
+       	<EditText 
         android:id="@+id/payrate_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/payrate_message" />
     </LinearLayout>
- 
+    <LinearLayout >
+   		<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/expected_payDate" />   
+    </LinearLayout>
+    <LinearLayout >
+   		<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/product_client" />
+    
+    	<EditText 
+        android:id="@+id/Pro_Client_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pro_client_message" />
+    </LinearLayout>
+    <LinearLayout >
+   		<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hiring_company" />
+    
+    	<EditText 
+        android:id="@+id/hiring_company_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hiring_company_message" />
+    </LinearLayout>
+        <LinearLayout >
+   		<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/role" />
+    
+    	<EditText 
+        android:id="@+id/role_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/role_message" />
+    </LinearLayout>
+    <LinearLayout >
+   		<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contacts" />
+    
+    	<EditText 
+        android:id="@+id/contacts_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contacts_message" />
+    </LinearLayout>
+     <LinearLayout >
+   		<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alert" />
+    </LinearLayout>
+    <LinearLayout >
+   		<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/repeat" />
+    </LinearLayout>
+    <LinearLayout >
+   		<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notes" />
+    
+    	<EditText 
+        android:id="@+id/note_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/notes_message" />
+    </LinearLayout>
+    
 
 </TableLayout>
