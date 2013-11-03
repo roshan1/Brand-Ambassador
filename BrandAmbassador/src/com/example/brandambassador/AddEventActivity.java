@@ -16,8 +16,7 @@ public class AddEventActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.add_event);
-		
+			
 	    setupActionBar();
 		
 		//Get the message from the intent that was in MainActivity
@@ -26,7 +25,7 @@ public class AddEventActivity extends Activity {
 		
 		TextView displayDate = new TextView (this);
 		displayDate.setText(Date);
-		
+		setContentView(R.layout.add_event);
 		//setContentView(displayDate);
 			
 	}

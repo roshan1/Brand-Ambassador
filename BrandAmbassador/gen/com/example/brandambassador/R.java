@@ -44,10 +44,12 @@ public final class R {
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int add_event=0x7f030001;
+        public static final int do_report=0x7f030002;
     }
     public static final class menu {
         public static final int add_event=0x7f070000;
-        public static final int main=0x7f070001;
+        public static final int do_report=0x7f070001;
+        public static final int main=0x7f070002;
     }
     public static final class string {
         public static final int Addbutton=0x7f050009;
@@ -61,6 +63,7 @@ public final class R {
         public static final int documents_button=0x7f050003;
         public static final int end=0x7f050010;
         public static final int expected_payDate=0x7f050014;
+        public static final int hello_world=0x7f050022;
         public static final int hiring_company=0x7f050017;
         public static final int hiring_company_message=0x7f050018;
         public static final int location=0x7f05000d;
@@ -82,6 +85,7 @@ public final class R {
         public static final int title=0x7f05000b;
         public static final int title_activity_add_event=0x7f050008;
         public static final int title_activity_display_event=0x7f05000a;
+        public static final int title_activity_do_report=0x7f050021;
         public static final int title_message=0x7f05000c;
     }
     public static final class style {

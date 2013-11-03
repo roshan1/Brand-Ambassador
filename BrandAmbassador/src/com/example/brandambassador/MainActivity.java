@@ -1,14 +1,14 @@
 package com.example.brandambassador;
 
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.CalendarView;
-import android.widget.TextView;
 import android.widget.CalendarView.OnDateChangeListener;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 	public final static String SELECTED_DATE = "com.example.myfirstapp.DATE";
@@ -52,5 +52,10 @@ public class MainActivity extends Activity {
 		intent.putExtra(SELECTED_DATE, date);
 		startActivity (intent);
 	}
-
+	public void doReports(View view){
+		Intent intent = new Intent (this, DoReportActivity.class);
+		startActivity (intent);
+		
+	
+	}
 }

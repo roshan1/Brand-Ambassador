@@ -8,31 +8,34 @@
     <string name="money_button">Finances</string>
     <string name="reports_button">Reports</string>
     <string name="selectedDate"></string>
+    
     <string name="addEvent">Add Event</string>
     <string name="title_activity_add_event">Add Event</string>
     <string name="Addbutton">+</string>
     <string name="title_activity_display_event">Add Event</string>
- 
-	<string name="title">Title</string>
-	<string name="title_message">Tap to enter Title</string>
-	<string name="location">Location</string>
-	<string name="location_message">Tap to enter the location</string>
-	<string name="start">Start</string>
-	<string name="end">End</string>
-	<string name="timeZone">TimeZone</string>
-	<string name="pay_rate">Pay Rate</string>
-	<string name="payrate_message">Enter the pay rate</string>
-	<string name="expected_payDate">Expected pay date</string>
-	<string name="product_client">Product/Client</string>
-	<string name="pro_client_message">Enter the information</string>
-	<string name="hiring_company">Hiring Company</string>
-	<string name="hiring_company_message">Enter the Hiring company Name</string>
-	<string name="role">Role</string>
-	<string name="role_message">Enter your Role</string>
-	<string name="contacts">Contacts</string>
-	<string name="contacts_message">Enter the contacts</string>
-	<string name="alert">Alert</string>
-	<string name="repeat">Repeat</string>
-	<string name="notes">Notes</string>
-	<string name="notes_message">Tap to enter the notes</string>
+    <string name="title">Title</string>
+    <string name="title_message">Tap to enter Title</string>
+    <string name="location">Location</string>
+    <string name="location_message">Tap to enter the location</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="timeZone">TimeZone</string>
+    <string name="pay_rate">Pay Rate</string>
+    <string name="payrate_message">Enter the pay rate</string>
+    <string name="expected_payDate">Expected pay date</string>
+    <string name="product_client">Product/Client</string>
+    <string name="pro_client_message">Enter the information</string>
+    <string name="hiring_company">Hiring Company</string>
+    <string name="hiring_company_message">Enter the Hiring company Name</string>
+    <string name="role">Role</string>
+    <string name="role_message">Enter your Role</string>
+    <string name="contacts">Contacts</string>
+    <string name="contacts_message">Enter the contacts</string>
+    <string name="alert">Alert</string>
+    <string name="repeat">Repeat</string>
+    <string name="notes">Notes</string>
+    <string name="notes_message">Tap to enter the notes</string>
+    <string name="title_activity_do_report">DoReportActivity</string>
+    <string name="hello_world">This is a new page</string>
+
 </resources>

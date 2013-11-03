@@ -29,6 +29,10 @@
             android:name="com.example.brandambassador.AddEventActivity"
             android:label="@string/title_activity_add_event" >
         </activity>
+        <activity
+            android:name="com.example.brandambassador.DoReportActivity"
+            android:label="@string/title_activity_do_report" >
+        </activity>
     </application>
 
 </manifest>
