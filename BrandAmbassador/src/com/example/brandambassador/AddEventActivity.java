@@ -21,12 +21,12 @@ public class AddEventActivity extends Activity {
 	    setupActionBar();
 		
 		//Get the message from the intent that was in MainActivity
-		//Intent intent = getIntent();
-		//String Date = intent.getStringExtra(MainActivity.SELECTED_DATE);
+		Intent intent = getIntent();
+		String Date = intent.getStringExtra(MainActivity.SELECTED_DATE);
 		
-		//TextView displayDate = new TextView (this);
-		//displayDate.setText(Date);
-		//
+		TextView displayDate = new TextView (this);
+		displayDate.setText(Date);
+		
 		//setContentView(displayDate);
 			
 	}
